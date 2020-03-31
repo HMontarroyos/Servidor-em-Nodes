@@ -21,9 +21,11 @@ if(path=== "/json"){
     res.end('Primeiro Servidor em Nodes');
 }
 
+
+});
+
 server.listen(port,() => {
   console.log(`Server running at port:${port}/`);
-});
-
 
 });
+
